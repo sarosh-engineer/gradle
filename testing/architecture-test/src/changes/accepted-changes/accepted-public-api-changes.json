@@ -38,6 +38,14 @@
             "changes": [
                 "Method return type has changed"
             ]
+        },
+        {
+            "type": "org.gradle.kotlin.dsl.KotlinDependencyExtensionsKt",
+            "member": "Method org.gradle.kotlin.dsl.KotlinDependencyExtensionsKt.embeddedKotlin(org.gradle.api.artifacts.dsl.DependencyHandler,java.lang.String)",
+            "acceptation": "Fix #12172: return String from DependencyHandler.embeddedKotlin so dependencyConfiguration overloads work without casts",
+            "changes": [
+                "Method return type has changed"
+            ]
         }
     ]
 }
